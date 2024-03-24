@@ -1,4 +1,4 @@
-## [Easy-Get-Store-Link](https://easygetstore.netlify.app/)
+## [Easy-Get-Store](https://easygetstore.netlify.app/)
 
 # Getting Started with Create React App
 
