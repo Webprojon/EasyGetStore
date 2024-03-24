@@ -1,0 +1,38 @@
+.notfound__page {
+    width: 100%;
+    height: 900px;
+
+    .notfound__header {
+        border-bottom: 1px solid $stroke-gray-primary;
+    }
+    .notfound__logo {
+        cursor: pointer;
+        margin: 24px 0px 24px 0px;
+    }
+
+    .notfound__content {
+        display: block;
+        margin: 0 auto;
+        margin-top: 156px;
+        width: 755px;
+        height: 413px;
+        text-align: center;
+
+        .notfound__title {
+            padding-top: 33px;
+            padding-bottom: 12px;
+        }
+        .notfound__paragraph {
+            $typography-titlesemibold-font-size: 20 + px;
+            padding-bottom: 24px;
+        }
+
+        .notfound__btn {
+            display: block;
+            margin: 0 auto;
+            width: 148px;
+            height: 48px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+// Imported Style Properties
+@import "./ButtonProperties";
+
+/* General Styles */
+.ButtonComp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+
+  /* Dynamic Styles */
+
+  /* Background Color Styles */
+  background-color: #{bgColor[props.appearance]?.[props.mode]} || none;
+
+  /* Text Color Styles */
+  color: #{color[props.appearance]?.[props.mode]} || none;
+
+  /* Border Styles */
+  border: #{border[props.appearance]?.[props.mode]} || none;
+
+  /* Border-Radius Styles */
+  border-radius: #{props.size === "sm" ? "8px": props.size === "md" ? "8px":
+    props.size === "lg" ? "12px": none};
+
+  /* Padding Styles */
+  padding: #{props.size === "sm" ? "5px 12px": props.size === "md" ? "6px 12px":
+    props.size === "lg" ? "10px 12px": null};
+
+  &:disabled {
+    opacity: 0.5;
+  }
+
+  &:hover {
+    /* Background Styles */
+    background-color: #{hoverBgColor[props.appearance]?.[props.mode]} || null;
+
+    /* Color Styles */
+    color: #{props.appearance === "netural" && props.mode === "tertiary" ?
+      "#37BE5D": null};
+
+    /* Border Styles */
+    border: #{stateBorder[props.appearance]?.[props.mode]} || null;
+
+    /* General Styles */
+    transition: all 0.2s linear;
+  }
+
+  &:active {
+    /* Background Styles */
+    background-color: #{activeBgColor[props.appearance]?.[props.mode]} || null;
+
+    /* Color Styles */
+    color: #{props.appearance === "netural" && props.mode === "tertiary" ?
+      "#159C3B": null};
+
+    /* Border Styles */
+    border: #{stateBorder[props.appearance]?.[props.mode]} || null;
+
+    /* General Styles */
+    transition: all 0.2s linear;
+  }
+}

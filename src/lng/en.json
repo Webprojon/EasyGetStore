@@ -1,0 +1,96 @@
+{
+    "header": {
+        "catalog": "Catalog",
+        "input_placeholder": "Find products and products",
+        "address": "Enter a delivery address",
+        "basket": "Basket",
+        "notfound_input_title": "Alas, no such product has been found.",
+        "notfound_input_text": "Unfortunately, we could not find this product in the catalog. You can leave a request so that we add this product to our catalog."
+    },
+
+    "home": {
+        "delivery_of_products_introbanner": "Delivery of products in 15 minutes!",
+        "delivery_of_products_introbanner_subtitle": "From the nearest store within a radius of 1 km!",
+        "looking_for_products": "Not what I'm looking for"
+    },
+
+    "wrong": {
+        "something_error_title": "Oops. Something went wrong",
+        "something_error-subtitle": "If you have any problems with the service, please contact us:",
+        "something_error-btn": "Main page"
+    },
+
+    "notfound": {
+        "notfound_title": "Page not found",
+        "notfound_subtitle": "You haven't broken the internet, but we can't find what you're looking for."
+    },
+    "product_category": {
+        "empty_title": "Oops. Looks like it's still empty",
+        "empty_subtitle": "Our entire team is working hard to complete this category. Come back in a while and the category will be filled with products :)",
+        "products": "Products",
+        "qty": "Quantity"
+    },
+    "cart": {
+        "shipping": "Your shopping cart",
+        "products": "products:",
+        "trash_btn": "Empty trash",
+        "total_title": "Total:",
+        "goods": "Goods:",
+        "discount": "Discounts:",
+        "delivery": "Delivery:",
+        "currency": "sum",
+        "to_pay": "To pay:",
+        "checkout_btn": "Checkout",
+        "not_products_title": "Your basket is empty",
+        "not_products_description": "The items you order will appear here.",
+        "related_products_title": "Related products",
+        "confirm_remove_btn": "Are you sure you want to empty the trash? All items will be removed from the cart",
+        "left_products_btn": "Left",
+        "clear_btn": "Clear",
+        "home_cart_shipping": "Shopping cart",
+        "home_cart_quantity": "Q-ty:",
+        "home_cart_btn": "Go to cart",
+        "product_card_title": "Not available yet",
+        "product_card_trash": "Add to cart",
+        "product_page_buy_btn": "Buy in 1 click",
+        "isPromocode": "I have a promo code",
+        "isConfirm": "Confirm"
+    },
+    "checkout": {
+        "header_title": "Your order has been placed successfully",
+        "header_text": "We have completed your order. Please wait for a call from our courier to confirm your order. Thanks for shopping.",
+        "main_title": "Order No. 323344",
+        "main_text1": "Order is processed:",
+        "main_text2": "Today, 15:00",
+        "download_icon": "Download the check",
+        "courier_name": "Abduvali Abduganiev",
+        "products_title": "Products",
+        "products_volume": "liter",
+        "products_unit_qty": "pc"
+    },
+    "mapModal": {
+        "head_title": "Enter a delivery address",
+        "head_text": "Since Dassyor moves everything very quickly to certain delivery areas, the assortment may vary in your area.",
+        "continue_btn": "Continue",
+        "save_btn":"Save"
+    },
+    "orderModal":{
+        "make_order":"Making an order",
+        "full_name": "Full name",
+        "delivery_address": "Delivery address",
+        "comment_order": "Order comment (optional)"
+    },
+    "promoModal":{
+        "title": "Promo code",
+        "isApply": "Apply",
+        "your_promocode": "Your promo code"
+    },
+    "deliveryAdd": {
+        "reference_point": "Reference point",
+        "appartment_office": "Apartment/office",
+        "entrance": "Entrance",
+        "floor": "Floor",
+        "intercom_code": "Intercom code "
+    }
+    
+}

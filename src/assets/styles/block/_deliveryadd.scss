@@ -1,0 +1,83 @@
+.delivery__backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+
+  .delivery__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $background;
+    max-width: 480px;
+    width: 100%;
+    min-height: 367px;
+    border-radius: 24px;
+    padding: 16px;
+    margin: 200px auto;
+
+    .delivery__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 126px;
+      max-width: 448px;
+      width: 100%;
+
+      .delivery__title {
+        max-width: 305px;
+        width: 100%;
+        font-weight: $typography-heading1bold-font-weight;
+        font-size: $typography-h3bold-font-size + px;
+        line-height: 130%;
+      }
+
+      .delivery__close-btn {
+        cursor: pointer;
+      }
+    }
+
+    .delivery__btn-address {
+      width: 452.5px;
+      height: 44px;
+      background-color: #f8f8fa;
+      border-radius: 12px;
+
+      &::after {
+        margin-left: 15px;
+        content: url(../../images/rightVector.jpg);
+      }
+    }
+
+    .delivery__form {
+      width: 448px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 20px;
+
+      .delivery__input-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 8px;
+        margin-bottom: 12px;
+      }
+    }
+
+    .delivery__btn {
+      width: 175px;
+      height: 48px;
+      margin-left: 273px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: $typography-titlesemibold-font-weight;
+      font-size: $typography-body2semibold-font-size + px;
+      line-height: 140%;
+      color: $background;
+    }
+  }
+}

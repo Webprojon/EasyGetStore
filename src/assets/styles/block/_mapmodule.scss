@@ -1,0 +1,149 @@
+.modal {
+  z-index: 100;
+
+  &__map-container {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    z-index: 10;
+  }
+
+  &__details-wrapper {
+    width: 1100px;
+    height: 80vh;
+    overflow-y: scroll;
+    background: #ffffff;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    margin-top: 70px;
+    gap: 20px;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__contents {
+    width: 100%;
+    position: relative;
+  }
+
+  &__close-btn {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    cursor: pointer;
+
+    img {
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  &__head {
+    h2 {
+      font-weight: 700;
+      font-size: 24px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      padding: 12px 0;
+      color: $text-secondary;
+    }
+  }
+
+  &__form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .modal__input {
+      width: 100%;
+      position: relative;
+    }
+
+    .input__search-panel {
+      position: absolute;
+      width: 100%;
+      margin-top: 7px;
+      min-height: 30px;
+      background: #fff;
+      box-shadow: 0px 16px 48px rgba(0, 0, 20, 0.15);
+      border-radius: 12px;
+      z-index: 10;
+
+      .search__results {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-height: 30vh;
+        overflow-y: scroll;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+
+        .items {
+          display: flex;
+          align-items: center;
+          border-bottom: 1.5px solid #ebecf1;
+          width: 100%;
+          padding: 10px 12px;
+          cursor: pointer;
+
+          &:last-child {
+            border: none;
+          }
+
+          &:hover {
+            background-color: rgb(246, 246, 246);
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+          }
+
+          img {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+
+    .modal__form-btn {
+      width: 200px;
+      height: 48px;
+      font-weight: 600;
+      font-size: 16px;
+      margin-left: 10px;
+    }
+  }
+
+  &__map {
+    width: 100%;
+    z-index: 5;
+  }
+}
+
+.ymaps-2-1-79-map-copyrights-promo {
+  display: none;
+}
+
+.ymaps-2-1-79-copyright {
+  display: none !important;
+}

@@ -1,0 +1,27 @@
+.introbanner_background {
+  min-height: 164px;
+  margin-bottom: 24px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.introbanner__heading {
+  font-weight: $typography-h2bold-font-weight;
+  font-size: $typography-heading1bold-font-size + px;
+  line-height: 140%;
+  color: $stroke-contrast;
+  padding-top: 37.5px;
+  padding-bottom: 10px;
+  padding-left: 203px;
+}
+
+.introbanner__text {
+  font-size: $typography-titlemedium-font-size + px;
+  line-height: 130%;
+  padding-bottom: 37.5px;
+  padding-left: 203px;
+  color: rgba(255, 255, 255, 0.7);
+}

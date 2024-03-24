@@ -1,0 +1,97 @@
+{
+    "header": {
+        "catalog": "Katalog",
+        "input_placeholder": "Mahsulotlar va tovarlarni toping",
+        "address": "Yetkazib berish manzilini kiriting",
+        "basket": "Savat",
+        "notfound_input_title": "Afsuski, bunday mahsulot topilmadi.",
+        "notfound_input_text": "Afsuski, biz ushbu mahsulotni katalogdan topa olmadik. Ushbu mahsulotni katalogimizga qo'shishimiz uchun so'rov qoldirishingiz mumkin."
+    },
+
+    "home": {
+        "delivery_of_products_introbanner": "Mahsulotlarni 15 daqiqada yetkazib berish!",
+        "delivery_of_products_introbanner_subtitle": "1 km radiusdagi eng yaqin do'kondan!",
+        "looking_for_products": "Men izlayotgan narsa emas"
+    },
+
+    "wrong": {
+        "something_error_title": "Voy. Nimadir noto'g'ri bajarildi",
+        "something_error-subtitle": "Xizmat bilan bog'liq muammolar mavjud bo'lsa, biz bilan bog'laning:",
+        "something_error-btn": "Asosiyga"
+    },
+
+    "notfound": {
+        "notfound_title": "Sahifa topilmadi",
+        "notfound_subtitle": "Siz internetni buzmagansiz, lekin biz siz qidirayotgan narsani topa olmadik."
+    },
+
+    "product_category": {
+        "empty_title": "Voy. U hali ham bo'm-bo'shga o'xshaydi",
+        "empty_subtitle": "Bizning butun jamoamiz ushbu toifani yakunlash uchun astoydil harakat qilmoqda. Birozdan keyin qaytib keling va toifa mahsulotlar bilan to'ldiriladi :)",
+        "products": "Mahsulotlar",
+        "qty": "Son"
+    },
+
+    "cart": {
+        "shipping": "Sizning xarid savatingiz",
+        "products": "mahsulotlar:",
+        "trash_btn": "Chiqindini bo'shatish",
+        "total_title": "Jami:",
+        "goods": "Tovarlar:",
+        "discount": "Chegirmalar:",
+        "delivery": "Yetkazib berish:",
+        "currency": "so'm",
+        "to_pay": "To'lash:",
+        "checkout_btn": "Ro'yxatdan o'chirilish",
+        "not_products_title": "Sizning savatingiz bo'sh",
+        "not_products_description": "Buyurtma qilingan narsalar shu yerda paydo bo'ladi.",
+        "related_products_title": "Tegishli mahsulotlar",
+        "confirm_remove_btn": "Chiqindini tozalamoqchimisiz? Barcha narsalar savatdan olib tashlanadi",
+        "left_products_btn": "Qo'ldirish",
+        "clear_btn": "Tozalash",
+        "home_cart_shipping": "Savat",
+        "home_cart_quantity": "Son:",
+        "home_cart_btn": "Savatga o'tish",
+        "product_card_title": "Hali mavjud emas",
+        "product_card_trash": "Savatga qo'shish",
+        "product_page_buy_btn": "1 bosishda xarid qiling",
+        "isPromocode": "Menda promo-kod bor",
+        "isConfirm": "Tasdiqlang"
+    },
+    "checkout": {
+        "header_title": "Buyurtmangiz muvaffaqiyatli joylandi",
+        "header_text": "Buyurtmangizni yakunladik. Buyurtmangizni tasdiqlash uchun kurerimizdan qo'ng'iroqni kuting. Xarid qilganingiz uchun tashakkur.",
+        "main_title": "Buyurtma №323344",
+        "main_text1": "Buyurtma qayta ishlandi:",
+        "main_text2": "Bugun, 15:00",
+        "download_icon": "Chekni yuklab oling",
+        "courier_name": "Abduvali Abduganiyev",
+        "products_title": "Mahsulotlar",
+        "products_volume": "Litr",
+        "products_unit_qty": "dona"
+    },
+    "mapModal": {
+        "head_title": "Yetkazib berish manzilini kiriting",
+        "head_text": "Dassyor ma'lum bir etkazib berish joylarida hamma narsani juda tez harakatga keltirganligi sababli, sizning hududingizdagi assortiment har xil bo'lishi mumkin.",
+        "continue_btn": "Davom eting",
+        "save_btn": "Saqlash"
+    },
+    "orderModal": {
+        "make_order":"Buyurtma",
+        "full_name": "Ism familiya",
+        "delivery_address": "Yetkazib berish manzili",
+        "comment_order": "Buyurtma sharhi (ixtiyoriy)"
+    },
+    "promoModal": {
+        "title": "Promo kod",
+        "isApply": "Qo'llash",
+        "your_promocode": "Sizning promo kodingiz"
+    },
+    "deliveryAdd": {
+        "reference_point": "Malumot nuqtasi",
+        "appartment_office": "Xonadon/ofis",
+        "entrance": "Kirish",
+        "floor": "Qavat",
+        "intercom_code": "Interkom kodi"
+    }
+}

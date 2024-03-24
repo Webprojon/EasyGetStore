@@ -1,0 +1,150 @@
+.products__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 0;
+
+    .img__small {
+        width: 111px;
+        border-radius: 12px;
+        background-color: #efefef;
+        overflow: hidden;
+    }
+
+    &-generalbox {
+        position: relative;
+
+        & .img__big {
+            width: 484px;
+            overflow: hidden;
+            border-radius: 20px;
+            background-color: #efefef;
+        }
+    }
+
+    &-delPrice {
+        font-weight: $typography-h1medium-font-weight;
+        font-size: $typography-title2semibold-font-size + px;
+        line-height: 110%;
+        text-decoration-line: line-through;
+        color: $text-secondary;
+        margin-bottom: 8px;
+    }
+
+    &-curPrice {
+        font-weight: $typography-heading1bold-font-weight;
+        font-size: $typography-h3medium-font-size + px;
+        line-height: 130%;
+        color: $background-accent-primary;
+        margin-bottom: 16px;
+    }
+
+    &-title {
+        font-weight: $typography-heading1bold-font-weight;
+        font-size: $typography-h2medium-font-size + px;
+        line-height: 140%;
+        color: $icon-primary;
+        margin-bottom: 4px;
+    }
+
+    &-liter {
+        font-weight: $typography-h1medium-font-weight;
+        font-size: $typography-titlesemibold-font-size + px;
+        line-height: 110%;
+        color: $text-secondary;
+        margin-bottom: 16px;
+    }
+
+    &-subtitle {
+        max-width: 635px;
+        width: 100%;
+        font-weight: $typography-titleregular-font-weight;
+        font-size: $typography-bodysemibold-font-size + px;
+        line-height: 140%;
+        color: $text-primary;
+        margin-bottom: 32px;
+    }
+
+    &-quantity {
+        font-weight: $typography-h1medium-font-weight;
+        font-size: $typography-bodysemibold-font-size + px;
+        color: $text-secondary;
+        line-height: 140%;
+        margin-bottom: 15px;
+    }
+
+    &-counter {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 32px;
+
+        & .btn {
+            width: 27%;
+            margin: 0;
+            padding: 6px 14px;
+            background-color: #f8f8fa;
+            color: $text-primary;
+            font-weight: $typography-titlesemibold-font-weight;
+            font-size: $typography-body3semibold-font-size + px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        & .counter__btn {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    &-minus {
+        max-width: 48px;
+        width: 100%;
+        padding: 12px;
+        background-color: #f8f8fa;
+        border-radius: 8px 0px 0px 8px;
+        border: none;
+        cursor: pointer;
+    }
+
+    &-num {
+        font-weight: $typography-h1medium-font-weight;
+        font-size: $typography-titlesemibold-font-size + px;
+        line-height: 110%;
+        text-align: center;
+        color: $text-primary;
+        background-color: #f8f8fa;
+        padding: 16.5px 32px;
+    }
+
+    &-plus {
+        max-width: 48px;
+        width: 100%;
+        padding: 12px;
+        background-color: #f8f8fa;
+        border-radius: 0px 8px 8px 0px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btns {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        min-width: 635px;
+        width: 100%;
+    }
+
+    .basketBtn {
+        width: 100%;
+        padding: 12.5px 71.25px;
+    }
+
+    .sellBtn {
+        width: 100%;
+        padding: 12.5px 71.25px;
+    }
+}

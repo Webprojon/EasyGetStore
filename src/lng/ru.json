@@ -1,0 +1,97 @@
+{
+    "header": {
+        "catalog": "Каталог",
+        "input_placeholder": "Найдите продукты и товары",
+        "address": "Укажите адрес доставки",
+        "basket": "Корзинка",
+        "notfound_input_title": "Увы, такой продукт не найден",
+        "notfound_input_text": "К сожалению мы не смогли найти этот продукт в каталоге. Вы можете оставить заявку чтобы мы добавили этот продукт в сой каталог."
+    },
+
+    "home": {
+        "delivery_of_products_introbanner": "Доставка продуктов за 15-минут!",
+        "delivery_of_products_introbanner_subtitle": "От ближайшего магазина в радиусе 1 км!",
+        "looking_for_products": "Нет того, что ищу"
+    },
+
+    "wrong": {
+        "something_error_title": "Упс. Что-то пошло не так",
+        "something_error-subtitle": "Если у вас возникли проблемы, с сервисом, пожалуйста свяжитесь с нами:",
+        "something_error-btn": "На главную"
+    },
+
+    "notfound": {
+        "notfound_title": "Страница не найдена",
+        "notfound_subtitle": "Вы не ломали интернет, но мы не можем найти то, что вы ищете."
+    },
+
+    "product_category": {
+        "empty_title": "Упс. Похоже здесь ещё пусто",
+        "empty_subtitle": "Вся наша команда усердно трудится над заполнением этой категории. Возвращайтесь через некоторое время и категория будет наполнена продуктами :)",
+        "products": "Продукты",
+        "qty": "Количество"
+    },
+
+    "cart": {
+        "shipping": "Ваша корзина",
+        "products": "продуктов:",
+        "trash_btn": "Очистить корзину",
+        "total_title": "Итого:",
+        "goods": "Товары:",
+        "discount": "Скидки:",
+        "delivery": "Доставка:",
+        "currency": "сум",
+        "to_pay": "К оплате:",
+        "checkout_btn": "Оформить заказa",
+        "not_products_title": "В вашей корзине пока пусто",
+        "not_products_description": "Тут появятся товары, которые вы закажете.",
+        "related_products_title": "Похожие продукты",
+        "confirm_remove_btn": "Вы уверены что хотите очистить корзину? Все товары будут удалены из корзины",
+        "left_products_btn": "Оставить",
+        "clear_btn": "Очистить",
+        "home_cart_shipping": "Корзина",
+        "home_cart_quantity": "Кол-во:",
+        "home_cart_btn": "Перейти в корзину",
+        "product_card_title": "Пока нет в наличии",
+        "product_card_trash": "Добавить в корзину",
+        "product_page_buy_btn": "Купить в 1 клик",
+        "isPromocode": "У меня есть промокод",
+        "isConfirm": "Подтвердить"
+    },
+    "checkout": {
+        "header_title": "Ваш заказ успешно оформлен",
+        "header_text": "Мы оформили ваш заказ. Ожидайте звонка от нашего курьера для подтверждения вашего заказа. Спасибо за покупку.",
+        "main_title": "Заказ №323344",
+        "main_text1": "Заказ оформлен:",
+        "main_text2": "Сегодня, 15:00",
+        "download_icon": "Скачать чек",
+        "courier_name": "Абдували Абдуганиев",
+        "products_title": "Продукты",
+        "products_volume": "л",
+        "products_unit_qty": "шт"
+    },
+    "mapModal": {
+        "head_title": "Укажите адрес доставки",
+        "head_text": "Так как Dassyor возит всё очень быстро по определённым зонам доставки, ассортимент в вашем районе может отличаться.",
+        "continue_btn": "Продолжить",
+        "save_btn": "Сохранить"
+    },
+    "orderModal": {
+        "make_order":"Оформление заказа",
+        "full_name": "Имя Фамилия",
+        "delivery_address": "Адрес доставки",
+        "comment_order": "Комментарий к заказу (необязательно)"
+    },
+    "promoModal": {
+        "title": "Промокод",
+        "isApply": "Применить",
+        "your_promocode": "Ваш промокод"
+    },
+    "deliveryAdd": {
+        "reference_point": "Ориентир",
+        "appartment_office": "Квартира/офис",
+        "entrance": "Подъезд",
+        "floor": "Этаж",
+        "intercom_code": "Код домофона"
+    }
+}

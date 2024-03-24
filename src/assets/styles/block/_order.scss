@@ -1,0 +1,138 @@
+.modal__backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.modal__content {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $background;
+  max-width: 407px;
+  width: 100%;
+  border-radius: 24px;
+  padding: 16px;
+}
+
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 107px;
+  max-width: 382px;
+  width: 100%;
+  margin-bottom: 12.5px;
+}
+
+.modal__title {
+  max-width: 245px;
+  width: 100%;
+  font-weight: $typography-h2bold-font-weight;
+  font-size: $typography-h3bold-font-size + px;
+  line-height: 130%;
+  margin: 0;
+}
+
+.modal__closed-btn {
+  cursor: pointer;
+}
+
+.modal__subheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 190px;
+  max-width: 375px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1.5px solid #ebecf1;
+}
+
+.modal__subtitle {
+  width: 75px;
+  margin: 0;
+  padding: 0;
+}
+
+.modal__price {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+.modal__price-text {
+  width: 109px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  font-weight: $typography-titlesemibold-font-weight;
+  font-size: $typography-bodysemibold-font-size + px;
+  line-height: 140%;
+  color: $text-primary;
+}
+
+.modal__price-text1 {
+  margin: 0;
+  padding: 0;
+  padding-left: 31px;
+  font-weight: $typography-h1medium-font-weight;
+  font-size: $typography-footnotesemibold-font-size + px;
+  line-height: 140%;
+  text-decoration-line: line-through;
+  color: $text-tertiary;
+}
+
+.modal__form-order {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+
+  .input__comment {
+    margin-bottom: 12px;
+  }
+}
+
+.modal__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.modal__btn1 {
+  width: 375px;
+  height: 48px;
+  padding: 0;
+  margin-top: 2px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: $typography-titlesemibold-font-weight;
+  font-size: $typography-body2semibold-font-size + px;
+  line-height: 140%;
+  color: $text-primary;
+}
+
+.modal__btn2 {
+  width: 375px;
+  height: 48px;
+  padding: 0;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: $typography-titlesemibold-font-weight;
+  font-size: $typography-body2semibold-font-size + px;
+  line-height: 140%;
+  color: $background;
+}

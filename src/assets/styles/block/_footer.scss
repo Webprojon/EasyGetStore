@@ -1,0 +1,49 @@
+.footer {
+    margin-top: 40px;
+    border-top: 1px solid #e2e8f0;
+
+    &__wrapper {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    &__networks {
+        display: flex;
+
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $background-accent-secondary;
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            margin: 0 10px;
+            cursor: pointer;
+
+            img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+    }
+
+    &__phone {
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-right: 10px;
+        }
+
+        p {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            color: $text-accent;
+        }
+    }
+}

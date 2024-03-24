@@ -1,0 +1,57 @@
+.main__search {
+    position: relative;
+    .modal__box {
+        width: 100%;
+        background-color: $background;
+        left: 0;
+        top: 50px;
+        position: absolute;
+        border-radius: 12px;
+        box-shadow: 0px 16px 48px 0px rgba(0, 0, 20, 0.1490196078);
+        max-height: 320px;
+        overflow-y: auto;
+        z-index: 1;
+        .notfound__input-content {
+            background-color: $background;
+            border-radius: 24px;
+            padding: 16px;
+            box-shadow: 0px 16px 48px 0px #00001426 !important;
+            z-index: 100;
+        }
+
+        .notfound__input-image {
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .notfound__input-title {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 4px;
+            color: #00031a;
+        }
+
+        .notfound__input-text {
+            margin: 0 auto;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 140%;
+            text-align: center;
+            color: #6b7280;
+            margin-bottom: 20px;
+        }
+
+        .notfound__input-btn {
+            width: 170px;
+            height: 48px;
+            margin: 0 auto;
+        }
+    }
+}

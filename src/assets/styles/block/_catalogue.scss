@@ -1,0 +1,124 @@
+.catalog {
+  &__overlay {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+  }
+
+  &__container {
+    background: #fff;
+    width: 816px;
+    height: 900px;
+    padding: 20px 22px 20px 4.5%;
+  }
+
+  .catalog__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .close {
+      img {
+        width: 22px;
+        height: 22px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__products {
+    display: flex;
+    justify-content: space-between;
+    height: 570px;
+    margin-top: 25px;
+  }
+
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    height: inherit;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .catalog__card {
+    display: flex;
+    align-items: center;
+    padding: 18px 15px;
+    border-radius: 16px;
+    cursor: pointer;
+
+    &:first-child {
+      margin: 0;
+    }
+
+    &:hover {
+      background: $background-accent-primary;
+      transition: all 0.3s linear;
+
+      .card__name {
+        color: #fff;
+      }
+    }
+
+    .card__img-part {
+      border: 1.5px solid #e2e8f0;
+      border-radius: 8px;
+      background-color: #fff;
+      margin-right: 14px;
+
+      .card__img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+      }
+    }
+
+    .card__details {
+      .card__name {
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 110%;
+      }
+
+      .card__count {
+        padding-top: 11px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 140%;
+        color: $text-tertiary;
+      }
+    }
+  }
+
+  .catalog__card-active {
+    background: $background-accent-primary;
+    transition: all 0.3s linear;
+
+    .card__name {
+      color: #fff;
+    }
+  }
+
+  .line {
+    border: 1px solid #e2e8f0;
+  }
+
+  &__categories-cards {
+    width: 336px;
+    height: inherit;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
